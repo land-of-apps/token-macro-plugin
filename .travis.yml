@@ -1,27 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Turn on validation, so we can use import:
 version: ~> 1.0
 jdk:
 - openjdk8
-import: land-of-apps/land-of-apps:travis/java-imports.yml
-script:
-- mvn -DargLine="-javaagent:appmap.jar" test
-=======
-=======
->>>>>>> c86d88e... added .travis.yml
-insert
-version: ~> 1.0
-
-jdk:
-- openjdk8
 
 import: land-of-apps/land-of-apps:travis/java-imports.yml
 
 script:
-<<<<<<< HEAD
 - mvn -DargLine="-javaagent:appmap.jar" test
->>>>>>> 091c297... appmap functionality and travis.yml file
-=======
-- mvn -DargLine="-javaagent:appmap.jar" test
->>>>>>> c86d88e... added .travis.yml
